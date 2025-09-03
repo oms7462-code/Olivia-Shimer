@@ -1,0 +1,30 @@
+Last login: Wed Sep  3 12:19:42 on ttys000
+➜  ~ git:(master) ✗ ls
+Applications Documents    ISTE608      Movies       Pictures     SoftDevI
+Desktop      Downloads    Library      Music        Public
+➜  ~ git:(master) ✗ cd~
+zsh: command not found: cd~
+➜  ~ git:(master) ✗ cd ~
+➜  ~ git:(master) ✗ mkdir pracicum
+➜  ~ git:(master) ✗ cd pracicum
+➜  pracicum git:(master) ✗ cd ..
+➜  ~ git:(master) ✗ mkdir practicum
+➜  ~ git:(master) ✗ cd practicum
+➜  practicum git:(master) ✗ vi about_me.txt
+➜  practicum git:(master) ✗ ls
+about_me.txt
+➜  practicum git:(master) ✗ cp about_me.txt
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+➜  practicum git:(master) ✗ cp /Users/oliviashimer3/practicum/about_me.txt about_me2.txt
+➜  practicum git:(master) ✗ ls
+about_me.txt  about_me2.txt
+➜  practicum git:(master) ✗ ls -la
+total 16
+drwxr-xr-x   4 oliviashimer3  staff   128 Sep  3 15:09 .
+drwxr-xr-x+ 35 oliviashimer3  staff  1120 Sep  3 15:09 ..
+-rw-r--r--   1 oliviashimer3  staff   117 Sep  3 15:07 about_me.txt
+-rw-r--r--   1 oliviashimer3  staff   117 Sep  3 15:09 about_me2.txt
+➜  practicum git:(master) ✗ mv /Users/oliviashimer3/practicum/about_me.txt ..
+➜  practicum git:(master) ✗ rm about_me2.txt
+
